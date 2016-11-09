@@ -12,5 +12,5 @@ current_time = str(datetime.now())
 ip = urlopen('http://ipinfo.io/ip').read().strip()
 content = current_time + "   " + addr
 
-gg = Simplegist(username='muhummadPatel', api_token='ed3361fe7630a29900c8ebd47e88ac6d620408e6')
-gg.profile().edit(id='b2685c420ce4711601fa9d16f1a05472', content=content)
+gg = Simplegist(username='muhummadPatel', api_token='[add_github_api_key_here]')
+gg.profile().edit(id='[add_github_gist_id_here]', content=content)
